@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>로그인</title>
+    <style>
+        div.d1{
+            margin-left: 250px;
+            margin-top: 40px;
+            float: left;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+        #menu{
+            clear: both;
+            text-align: center;
+        }
+        section{
+            font-size: 15pt;
+            margin-top: 150px;
+            border-bottom: 3px solid rgb(170, 170, 170);
+            border-top: 3px solid rgb(170, 170, 170);
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1"><a href="./hw07.html"><img src="./img/스타벅스 logo.jpg" width="200" height="150" title="BackToMain"></a></div>
+    <div id="menu">
+        <ul>
+            <a href="./coffee.html">COFFEE</a> |
+            <a href="./aboutUs.html">ABOUT US</a>
+        </ul>
+    </div>
+    <section>
+        <form>
+            <center>
+                <h2>Please Login</h2>
+                <p><b>ID: </b><input type="text" name="ID" size="15" required></p>
+                <p><b>PW: </b><input type="password" name="psw" size="15" placeholder="비밀번호" required></p>
+                <p></p>
+                <input type="submit" value="전송">
+                <input type="reset" value="다시작성">
+            </center>
+        </form>
+    </section>
+    <a href="./hw07.html" title="돌아가기">BackToMainPage</a>
+</body>
+
+</html>
