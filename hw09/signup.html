@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <style>
+        div.d1 {
+            margin-left: 250px;
+            margin-top: 40px;
+            float: left;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        #menu {
+            clear: both;
+            text-align: center;
+        }
+
+        section {
+            font-size: 13pt;
+            border-bottom: 3px solid rgb(170, 170, 170);
+            border-top: 3px solid rgb(170, 170, 170);
+            padding-bottom: 30px;
+        }
+        #menu ul a {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1"><a href="./hw09.html"><img src="./img/스타벅스 logo.jpg" width="200" height="150" title="BackToMain"></a></div>
+    <div id="menu">
+        <ul>
+            <a href="./coffee.html">COFFEE</a> |
+            <a href="./aboutUs.html">ABOUT US</a>
+        </ul>
+    </div>
+    <center>
+        <section>
+            <form>
+                <h2>Please SignUp</h2>
+                <hr width="70%">
+                <p><b>Name: </b><input type="text" name="name" size="20" required></p>
+                <hr width="50%">
+                <p><b>ID: <input type="text" name="ID" size="20" required></b></p>
+                <hr width="50%">
+                <p><b>PW: <input type="password" name="PW" size="20" required></b></p>
+                <hr width="50%">
+                <p><b>Phone Num: <input type="tel" name="Tel" size="11" required></b></p>
+                <hr width="50%">
+                <p><b>Gender: </b><input type="radio" name="sex" value="male">남자
+                    <input type="radio" name="sex" value="female">여자
+                    <input type="radio" name="sex" value="none">선택 안함
+                </p>
+                <hr width="50%">
+                <p><b>Birthday: <input type="date" name="birthday"></b></p>
+                <hr width="50%">
+                <input type="submit" value="Sign Up">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </center>
+    <a href="./hw07.html" title="돌아가기">BackToMainPage</a>
+</body>
+
+</html>
